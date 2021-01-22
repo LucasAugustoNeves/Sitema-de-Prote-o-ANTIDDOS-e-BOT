@@ -65,11 +65,6 @@
         <!-- Include Google Font - Just for demo page -->
         <link href="//fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
 
-        <!-- Include jQuery Library -->
-        <!--[if lt IE 9]>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
-        <![endif]-->
-
         <!--[if (gte IE 9) | (!IE)]><!-->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <!--<![endif]-->

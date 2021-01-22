@@ -10,7 +10,7 @@ if(!isset($_SESSION)){
 	 require('src/captcha-session.class.php');
 	 require('src/captcha.class.php');
 	 // DEFAULT IS SET TO ../icons/
-	 IconCaptcha::setIconsFolderPath('assets/icons/');
+	 IconCaptcha::setIconsFolderPath('../assets/icons/');
 	 // NOTE: Ativar isso pode causar um ligeiro aumento no uso da CPU.
 	 IconCaptcha::setIconNoiseEnabled(true);
 }
