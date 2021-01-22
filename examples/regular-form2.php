@@ -17,6 +17,7 @@
     // Se o formulário foi enviado, valide o captcha.
     if(!empty($_POST)) {
         if(IconCaptcha::validateSubmission($_POST)) {
+            // Formulario Enviado com sucesso.
             $captchaMessage = 'O formulário foi enviado!';
         } else {
             $captchaMessage = json_decode(IconCaptcha::getErrorMessage())->error;
