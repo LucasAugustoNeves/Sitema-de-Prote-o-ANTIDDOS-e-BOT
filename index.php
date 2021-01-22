@@ -1,5 +1,5 @@
 <?php
-		include ("anti_ddos/start.php"); //write this at the top of your PHP application and all is done!!!
+		include ("anti_ddos/start2.php"); //write this at the top of your PHP application and all is done!!!
 ?>
 
 <!DOCTYPE html>
